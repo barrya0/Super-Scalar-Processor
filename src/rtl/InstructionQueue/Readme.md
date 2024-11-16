@@ -113,13 +113,13 @@ immediate field. Furthermore, the queue is able to recognize two
 different instructions and dispatch them at the same clock cycle.
 
 <p align="center"> 
-  <img src="./iqmedia/instr_sim8.png" />
+  <img src="./iqMedia/instr_sim8.png" />
 </p>
 
 At a later timestep, the columns have more instructions. Like so:
 
 <p align="center"> 
-  <img src="./iqmedia/instr_sim9.png" />
+  <img src="./iqMedia/instr_sim9.png" />
 </p>
 
 I hope this was enough to show the ability of the queue to load and

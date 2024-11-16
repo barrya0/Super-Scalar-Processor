@@ -145,7 +145,46 @@ unit*
 
         c.  Memory Unit
         
+**Section 2: RTL Schematics**
 
+Unfortunately, I was only able to verify the functionality of the
+instruction queue, dispatch unit, and reservation stations with
+adder/multiplier with separate test benches to simulate key test cases.
+I can however show my RTL schematics for the design units I was not able
+to verify. At the very least, they can synthesize, and I am confident in
+the logic I described in my efforts to create a fully functioning
+Superscalar Unit. My main regret for this project is not having the time
+to do this verification and finishing the design of the Register File
+which I know should follow the design of the RAT closely (right?).
+
+<p align="center"> 
+  <img src="./media/ssCurr.png" />
+</p>
+<p align="center"><em>Figure 6: Superscalar Top Level Currently</em></p>
+
+
+ I'm going to leave out the internals of the instruction queue and
+ dispatch unit as they are both very large and complex, the dispatch
+ unit especially so. The Reservation Station is also very large, but I
+ will show a part of the internals where the adder and multiplier are
+ located.
+
+<p align="center"> 
+  <img src="./media/adder.png" />
+</p>
+<p align="center"> 
+  <img src="./media/mul.png" />
+</p>
+<p align="center"><em>Figure 7: Multiplier/Adder</em></p>
+
+<p align="center"> 
+  <img src="./media/addInternal.png" />
+</p>
+<p align="center"><em>Figure 8: Adder Internal</em>
+</p>
+
+The Multiplier is similar.
+>
 Please navigate to the module specific folders to see more about the internal design and verification. Thank you very much for looking at my work. I will continue to work on it in my spare time until it functions and will move on to supporting more
 instructions and designs such as the load/store queue, branch predictor, etc. Thanks
 again.

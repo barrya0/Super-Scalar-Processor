@@ -13,7 +13,7 @@ Abdoula Barry
 <p align="center">
   <img src="./media/ibm360.png" />
 </p>
-<p align="center"><em>Figure 1: Tomasulo\'s machine: IBM 360/91</em></p>
+<p align="center"><em>Figure 1: Tomasulo's machine: IBM 360/91</em></p>
 
 The basic top-level hierarchy of my design follows the layout of the IBM
 360/91 pretty closely with small reductions, simplifications, and even

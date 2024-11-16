@@ -184,7 +184,7 @@ which I know should follow the design of the RAT closely (right?).
 </p>
 
 The Multiplier is similar.
->
+#
 Please navigate to the module specific folders to see more about the internal design and verification. Thank you very much for looking at my work. I will continue to work on it in my spare time until it functions and will move on to supporting more
 instructions and designs such as the load/store queue, branch predictor, etc. Thanks
 again.

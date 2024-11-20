@@ -2,8 +2,6 @@ Advanced Computer Architecture: Processor Design (ECSE 4780/6700)
 
 Abdoula Barry
 
-02/15/2024
-
 # Project : SuperScalar Processor
 
 **Section 1: Design Description**
